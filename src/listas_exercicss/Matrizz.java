@@ -18,8 +18,8 @@ public class Matrizz {
 		int[][] mat = new int[n][n];
 		int neg = 0;
 		
-		for(int i = 0; i < n; i++) {			
-			for(int j = 0; j < n; j++) {
+		for(int i = 0; i < mat.length; i++) {			
+			for(int j = 0; j < mat[i].length; j++) {
 				mat[i][j] = sc.nextInt();
 			}
 		}
