@@ -33,6 +33,7 @@ public class ExerMatriz {
 		for(int i = 0;i < m; i++) {
 			for(int j = 0;j < n; j++) {
 				if(mat[i][j] == x) {
+					System.out.println("Position " + i + "," + j);
 					if(j > 0) {
 						System.out.println("A esquerda: " + mat[i][j-1] );
 					}
